@@ -1,0 +1,7 @@
+// Vite configuration - bundler/dev server for React
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
+
+export default defineConfig({
+  plugins: [react()],
+});
